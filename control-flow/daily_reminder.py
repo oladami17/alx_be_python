@@ -18,7 +18,7 @@ if time_bound == "yes":
     reminder += " that requires immediate attention today!"
 else:
     if priority == "low":
-        reminder = f"Note: {reminder}.Consider completing it when you have free time."
+        reminder = f"Note: {reminder}. Consider completing it when you have free time."
     else:
         reminder += " but it is not time-sensitive."
 print("\nReminder:", reminder)
